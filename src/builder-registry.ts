@@ -2,6 +2,7 @@
 import { Builder } from "@builder.io/react";
 import BotPage from "./components/Bots/BotPage";
 import Counter from "./components/Counter/Counter";
+import { Robot } from "./components/Robot";
 
 Builder.registerComponent(Counter, {
   name: "Counter",
@@ -15,4 +16,7 @@ Builder.registerComponent(Counter, {
 
 Builder.registerComponent(BotPage, {
   name: "BotPage",
+});
+Builder.registerComponent(Robot, {
+  name: "Robot",
 });
